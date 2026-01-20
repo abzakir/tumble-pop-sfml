@@ -15,8 +15,6 @@ A modern recreation of the classic **Tumble Pop** arcade game, built from scratc
 - SFML
 - Object-Oriented Design
 
-## ▶️ Gameplay Demo
-🎥 Video: https://youtu.be/YOUR_VIDEO_LINK
 
 ## ⚙️ How to Run
 ```bash
