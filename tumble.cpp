@@ -195,7 +195,7 @@ float parseFloatFromLine(const char* line, int startIdx)
         idx++;
     }
     
-    // Parse decimal part
+    // Parse decimal parts 
     if (line[idx] == '.')
     {
         idx++;
@@ -238,7 +238,7 @@ void pushCapturedEnemy(int capturedStack[], int capturedEnemyType[], int& captur
     capturedStackSize++;
 }
 
-// Pop enemy from captured stack
+// Poping enemy from captures stacks
 void popCapturedEnemy(int capturedStack[], int capturedEnemyType[], int& capturedStackSize, int& enemyIndex, int& enemyType)
 {
     if (capturedStackSize == 0) return;
